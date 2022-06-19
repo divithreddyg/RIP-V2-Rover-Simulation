@@ -1,7 +1,6 @@
-# MulticastTestEnvironment
-A Docker environment for testing networking Java programs
+# RIP V2 Simulation using Rovers
 
-This uses the Docker OpenJDK container with added iptables to run Java applications.  A web interface is provided to dynamically block containers from talking with certain other containers as needed for testing.  Although originally designed for testing multicast applications, it can work with any networking java application.
+The Project was built to simulate the RIP V2 protocol using rovers. Each rover on the network executes RIP to exchange routing information with its neighbors, and based on this information, the rover computes the shortest paths from itself to all the other rovers and the lander, which for this experiment may be considered just another rover that does not move
 
 ### To build
 This will also build any java files in the current directory in the container.
